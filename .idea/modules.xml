@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculadora/Calculadora.iml" filepath="$PROJECT_DIR$/Calculadora/Calculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PracticaTDD-Git.iml" filepath="$PROJECT_DIR$/.idea/PracticaTDD-Git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tareas-TDD/Tareas-TDD.iml" filepath="$PROJECT_DIR$/Tareas-TDD/Tareas-TDD.iml" />
     </modules>
   </component>
 </project>

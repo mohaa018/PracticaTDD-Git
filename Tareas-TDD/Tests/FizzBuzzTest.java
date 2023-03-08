@@ -10,6 +10,7 @@ public class FizzBuzzTest {
         FizzBuzz test1 = new FizzBuzz();
         FizzBuzz test2 = new FizzBuzz();
 
+
         //Act
         String resultado1 = test1.calcularfizzbuzz(1);
         String resultado2 = test2.calcularfizzbuzz(2);

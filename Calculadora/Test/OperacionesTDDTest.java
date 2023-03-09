@@ -5,18 +5,48 @@ import static org.junit.jupiter.api.Assertions.*;
 public class OperacionesTDDTest {
     @Test
     void testOperacionesTDDsumaquedevuelve0(){
+        //Arrange
         OperacionesTDD test = new OperacionesTDD();
 
+        //Act
         int resultado = test.suma("");
 
+        //Assert
         assertEquals(0, resultado);
     }
     @Test
     void testOperacionesTDDsumaquedevuelve1(){
+        //Arrange
         OperacionesTDD test = new OperacionesTDD();
 
+        //Act
         int resultado = test.suma("1");
 
+        //Assert
         assertEquals(1, resultado);
+    }
+
+    @Test
+    void testOperacionesTDDsuma1y2quedevuelve3(){
+        //Arrange
+        OperacionesTDD test = new OperacionesTDD();
+
+        //Act
+        int resultado = test.suma("1,2");
+
+        //Assert
+        assertEquals(3, resultado);
+    }
+
+    @Test
+    void testOperacionesTDDsuma1y1y2quedevuelve4(){
+        //Arrange
+        OperacionesTDD test = new OperacionesTDD();
+
+        //Act
+        int resultado = test.suma("1,1,2");
+
+        //Assert
+        assertEquals(4, resultado);
     }
 }

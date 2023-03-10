@@ -74,4 +74,17 @@ public class OperacionesTDDTest {
         assertEquals(-1, resultado);
     }
 
+    @Test
+    void testnúmerosmayoresde1000seignoranenlasuma(){
+        //Arrange
+        OperacionesTDD test = new OperacionesTDD();
+
+        //Act
+        int resultado = test.suma("5,1002");
+
+        //Assert
+        assertEquals(5, resultado);
+    }
+
+
 }

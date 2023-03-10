@@ -31,6 +31,9 @@ public class OperacionesTDD {
 
         for (int i = 0; i < numeros.length; i++) {
                 int n1 = Integer.valueOf(numeros[i]);
+                if (n1>1000){
+                    n1=0;
+                }
                 suma+=n1;
         }
 

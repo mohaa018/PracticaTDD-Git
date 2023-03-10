@@ -62,5 +62,16 @@ public class OperacionesTDDTest {
         assertEquals(-1, resultado);
     }
 
+    @Test
+    void testnúmerosnegativosnopermitidos(){
+        //Arrange
+        OperacionesTDD test = new OperacionesTDD();
+
+        //Act
+        int resultado = test.suma("1,2,-2");
+
+        //Assert
+        assertEquals(-1, resultado);
+    }
 
 }

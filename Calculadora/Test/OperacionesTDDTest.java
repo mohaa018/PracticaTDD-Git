@@ -49,4 +49,18 @@ public class OperacionesTDDTest {
         //Assert
         assertEquals(4, resultado);
     }
+
+    @Test
+    void testAñadirfuncionalidaddesiencuentroseparadorsinnúmerodevuelvoerrormenos1(){
+        //Arrange
+        OperacionesTDD test = new OperacionesTDD();
+
+        //Act
+        int resultado = test.suma("1,2,");
+
+        //Assert
+        assertEquals(-1, resultado);
+    }
+
+
 }
